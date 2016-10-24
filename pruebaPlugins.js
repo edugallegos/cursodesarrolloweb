@@ -4,6 +4,7 @@ var boton = document.getElementById("boton");
 window.open();
 console.log();
 console.error();
+console.log("Inicializando el proceso");
 
 Math.floor();
 
