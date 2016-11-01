@@ -8,11 +8,12 @@
 	<title>Bootstrap 3 Responsive</title>
 	<!-- Include bootstrap CSS -->
 	<!-- Latest compiled and minified CSS -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<!-- Include jQuery and bootstrap JS plugins -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/listado.js"></script>
 </head>
 
 <body>
@@ -25,44 +26,28 @@
 			<nav class="navbar-collapse collapse">
 				<ul class="nav navbar-nav" role="navigation">
 					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="tabla.html">Listado</a></li>
+					<li><a href="#">Listado</a></li>
 					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<div class="banner">
-		<div class="container">
-			<h1>Bootstrap 3: Tutorial Diseño Responsive</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab mollitia, perferendis quaerat suscipit nulla? Modi, nobis
-				voluptatum molestiae ut suscipit.</p>
-		</div>
-	</div>
-
 	<div class="middle">
 		<div class="container">
-			<div class="col-md-9 content">
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem accusamus, quas odio qui.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae molestias ea doloremque officiis, incidunt dicta odio
-					libero accusamus rerum nam ipsa quisquam numquam repellendus error cum ut laudantium molestiae? Totam sint possimus
-					rem laudantium alias dicta consequuntur vel enim nesciunt.</p>
-				<div class="to-tutorial">
-					<p><strong>Si desea descargar el aplicativo:</strong></p>
-					<a href="#" class="btn btn-success">Descargar</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<h2>Recursos</h2>
-				<ul class="nav nav-pills nav-stacked">
-					<li><a href="#" target="_blank">Lorem ipsum dolor sit.</a></li>
-					<li><a href="#" target="_blank">Lorem ipsum dolor.</a></li>
-					<li><a href="#" target="_blank">Lorem ipsum dolor sit amet.</a></li>
-					<li><a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur.</a></li>
-					<li><a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></li>
-					<li><a href="#" target="_blank">Lorem ipsum.</a></li>
-				</ul>
-			</div>
+            <div class="table-responsive">
+                <table id="listado" class="table">
+                    <thead>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Usuario</th>
+                        <th>Email</th>
+                        <th>Dirección</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
 		</div>
 	</div>
 	<div class="bottom">

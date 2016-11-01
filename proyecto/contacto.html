@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!-- Set the viewport so this responsive site displays correctly on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 3 Responsive</title>
+	<!-- Include bootstrap CSS -->
+	<!-- Latest compiled and minified CSS -->
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- Include jQuery and bootstrap JS plugins -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header class="top">
+		<div class="container">
+			<a href="#" class="navbar-brand"> BS3 </a>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+			<nav class="navbar-collapse collapse">
+				<ul class="nav navbar-nav" role="navigation">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="tabla.html">Listado</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<form class="form-horizontal" method="post">
+						<fieldset>
+							<legend class="text-center titulo">Contacto</legend>
+
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user bigicon"></i></span>
+								<div class="col-md-8">
+									<input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user bigicon"></i></span>
+								<div class="col-md-8">
+									<input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-envelope bigicon"></i></span>
+								<div class="col-md-8">
+									<input id="email" name="email" type="text" placeholder="Email" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-phone bigicon"></i></span>
+								<div class="col-md-8">
+									<input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-pencil bigicon"></i></span>
+								<div class="col-md-8">
+									<textarea class="form-control" id="message" name="message" placeholder="Ingrese su mensaje para contactarse con el administrador"
+										rows="7"></textarea>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-md-12 text-center">
+									<button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="container">
+			<div class="col-md-4">
+				<h3><span class="glyphicon glyphicon-heart"></span> Footer section 1</h3>
+				<p>Content for the first footer section.</p>
+			</div>
+			<div class="col-md-4">
+				<h3><span class="glyphicon glyphicon-star"></span> Footer section 2</h3>
+				<p>Content for the second footer section.</p>
+			</div>
+			<div class="col-md-4">
+				<h3><span class="glyphicon glyphicon-music"></span> Footer section 3</h3>
+				<p>Content for the third footer section.</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
